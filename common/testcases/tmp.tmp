@@ -1,0 +1,129 @@
+public Employee()
+{
+this.salary=0;
+this.id=0l;
+this.marketPriceOfCompany=0.0;
+this.nameOfEmploye="";
+this.lastNameOfEmployee="";
+this.address="";
+this.gender=' ';
+this.annualSalary=0;
+this.annualSalaryPercentage=0l;
+this.floor=0.0f;
+this.data=null;
+this.charSet=' ';
+this.char2Set=' ';
+this.boll=false;
+}
+public void setSalary(int salary)
+{
+this.salary=salary;
+}
+public int getSalary()
+{
+return this.salary;
+}
+public void setId(long id)
+{
+this.id=id;
+}
+public long getId()
+{
+return this.id;
+}
+public void setMarketPriceOfCompany(java.lang.Double marketPriceOfCompany)
+{
+this.marketPriceOfCompany=marketPriceOfCompany;
+}
+public java.lang.Double getMarketPriceOfCompany()
+{
+return this.marketPriceOfCompany;
+}
+public void setNameOfEmploye(java.lang.String nameOfEmploye)
+{
+this.nameOfEmploye=nameOfEmploye;
+}
+public java.lang.String getNameOfEmploye()
+{
+return this.nameOfEmploye;
+}
+public void setLastNameOfEmployee(java.lang.String lastNameOfEmployee)
+{
+this.lastNameOfEmployee=lastNameOfEmployee;
+}
+public java.lang.String getLastNameOfEmployee()
+{
+return this.lastNameOfEmployee;
+}
+public void setAddress(java.lang.String address)
+{
+this.address=address;
+}
+public java.lang.String getAddress()
+{
+return this.address;
+}
+public void setGender(char gender)
+{
+this.gender=gender;
+}
+public char getGender()
+{
+return this.gender;
+}
+public void setAnnualSalary(java.lang.Integer annualSalary)
+{
+this.annualSalary=annualSalary;
+}
+public java.lang.Integer getAnnualSalary()
+{
+return this.annualSalary;
+}
+public void setAnnualSalaryPercentage(java.lang.Long annualSalaryPercentage)
+{
+this.annualSalaryPercentage=annualSalaryPercentage;
+}
+public java.lang.Long getAnnualSalaryPercentage()
+{
+return this.annualSalaryPercentage;
+}
+public void setFloor(java.lang.Float floor)
+{
+this.floor=floor;
+}
+public java.lang.Float getFloor()
+{
+return this.floor;
+}
+public void setData(Data data)
+{
+this.data=data;
+}
+public Data getData()
+{
+return this.data;
+}
+public void setCharSet(java.lang.Character charSet)
+{
+this.charSet=charSet;
+}
+public java.lang.Character getCharSet()
+{
+return this.charSet;
+}
+public void setChar2Set(char char2Set)
+{
+this.char2Set=char2Set;
+}
+public char getChar2Set()
+{
+return this.char2Set;
+}
+public void setBoll(boolean boll)
+{
+this.boll=boll;
+}
+public boolean getBoll()
+{
+return this.boll;
+}
